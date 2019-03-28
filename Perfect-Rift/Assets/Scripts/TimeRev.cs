@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityStandardAssets.Characters.FirstPerson;
 
 public class TimeRev : MonoBehaviour
 {
@@ -23,11 +24,13 @@ public class TimeRev : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             indic.SetActive(true);
+            gameObject.GetComponent<RigidbodyFirstPersonController>().enabled = false;
             StartRewind();
         }
         if (Input.GetKeyUp(KeyCode.Mouse0))
         {
             indic.SetActive(false);
+            gameObject.GetComponent<RigidbodyFirstPersonController>().enabled = true;
             StopRewind();
         }
     }
