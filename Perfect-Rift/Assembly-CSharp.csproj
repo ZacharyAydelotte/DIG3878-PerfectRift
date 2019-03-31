@@ -167,6 +167,7 @@
     <Compile Include="Assets\Scripts\RewindFX.cs" />
     <Compile Include="Assets\Scripts\ScoreCount.cs" />
     <Compile Include="Assets\Scripts\Teleport.cs" />
+    <Compile Include="Assets\Scripts\Teleport2.cs" />
     <Compile Include="Assets\Scripts\TimeRev.cs" />
     <Compile Include="Assets\Scripts\wallRun.cs" />
     <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
