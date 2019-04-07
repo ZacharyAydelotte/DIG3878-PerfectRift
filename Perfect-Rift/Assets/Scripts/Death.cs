@@ -13,6 +13,11 @@ public class Death : MonoBehaviour
         {
             Application.Quit();
         }
+
+        if (gameObject.transform.position.y < -300)
+        {
+            SceneManager.LoadScene(sceneName: "Level2");
+        }
     }
 
     void OnCollisionEnter (Collision col)
