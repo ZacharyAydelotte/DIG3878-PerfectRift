@@ -17,7 +17,7 @@ public class ScoreCount : MonoBehaviour
 
     void Update()
     {
-        scoreText.text = "Score: " + gscore;
+        scoreText.text = "Shard x " + gscore;
 
         if (gscore == 5)
         {
