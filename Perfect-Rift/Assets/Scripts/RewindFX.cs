@@ -16,13 +16,22 @@ public class RewindFX : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (GameObject.Find("RigidBodyFPSController").GetComponent<TimeRev>().isRewinding)
+        {
+            GetComponent<PostProcessingBehaviour>().profile = rwFX;
+        }
+        else
+        {
+            GetComponent<PostProcessingBehaviour>().profile = normalFX;
+        }
+
+        /*if (Input.GetKeyDown(KeyCode.Mouse0))
         {
             GetComponent<PostProcessingBehaviour>().profile = rwFX;
         }
         else if (Input.GetKeyUp(KeyCode.Mouse0))
         {
             GetComponent<PostProcessingBehaviour>().profile = normalFX;
-        }
+        }*/
     }
 }
