@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.15626714, g: 0.736601, b: 0.73365325, a: 1}
+  m_IndirectSpecularColor: {r: 0.15626673, g: 0.7366, b: 0.7336519, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8286,7 +8286,7 @@ GameObject:
   - component: {fileID: 659567159}
   - component: {fileID: 659567161}
   m_Layer: 0
-  m_Name: ScoreManager
+  m_Name: HUDManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

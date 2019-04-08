@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.14024499, g: 0.4795202, b: 0.23084642, a: 1}
+  m_IndirectSpecularColor: {r: 0.1402446, g: 0.4795196, b: 0.23084597, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9450,8 +9450,9 @@ GameObject:
   m_Component:
   - component: {fileID: 213104164}
   - component: {fileID: 213104163}
+  - component: {fileID: 213104165}
   m_Layer: 0
-  m_Name: ScoreManager
+  m_Name: HUDManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9478,13 +9479,26 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 213104162}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -540.13055, y: -739.5289, z: -4765.945}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -540.1306, y: -739.5289, z: -4765.945}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &213104165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213104162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f4f37009b71e7546befe8a5c5f39d68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rwText: {fileID: 589049457}
 --- !u!1 &214668738 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100012, guid: 7bb9046469c47b346a0ec12b7b1ba00b,
@@ -26987,6 +27001,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ce113e50e74d284484c31182e07bc45, type: 3}
+--- !u!114 &589049457 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5214627631665922073, guid: 5ce113e50e74d284484c31182e07bc45,
+    type: 3}
+  m_PrefabInstance: {fileID: 589049456}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &589121321 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100022, guid: 3f68eb3358918e844bb09ba3c4fb391c,
@@ -37025,6 +37051,7 @@ GameObject:
   m_Component:
   - component: {fileID: 794420731}
   - component: {fileID: 794420730}
+  - component: {fileID: 794420732}
   m_Layer: 0
   m_Name: Music
   m_TagString: Untagged
@@ -37142,6 +37169,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &794420732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 794420729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dce104b807987b044a48c985aaae07f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &794797008 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100102, guid: 7bb9046469c47b346a0ec12b7b1ba00b,
