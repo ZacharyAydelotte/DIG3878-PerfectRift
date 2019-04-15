@@ -26168,6 +26168,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1891167190, guid: da034c98676f4494d80e62d9588f0816, type: 3}
+      propertyPath: indic
+      value: 
+      objectReference: {fileID: 520330891}
     - target: {fileID: 1891167191, guid: da034c98676f4494d80e62d9588f0816, type: 3}
       propertyPath: mouseLook.lockCursor
       value: 1
@@ -26180,6 +26184,10 @@ PrefabInstance:
       propertyPath: far clip plane
       value: 10000
       objectReference: {fileID: 0}
+    - target: {fileID: 879511816, guid: da034c98676f4494d80e62d9588f0816, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 439185712, guid: da034c98676f4494d80e62d9588f0816, type: 3}
       propertyPath: normalFX
       value: 
@@ -26190,14 +26198,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 48d22e299ea9c4946af1657e18b0f19e,
         type: 2}
-    - target: {fileID: 1891167190, guid: da034c98676f4494d80e62d9588f0816, type: 3}
-      propertyPath: indic
-      value: 
-      objectReference: {fileID: 520330891}
-    - target: {fileID: 879511816, guid: da034c98676f4494d80e62d9588f0816, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da034c98676f4494d80e62d9588f0816, type: 3}
 --- !u!1 &580648227 stripped
@@ -26421,6 +26421,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: CanvasPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 225204890, guid: 1bdf4eecc70cd3646a433d1609e41b5f, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: bed85cab82b37df49ad291648778bc3f,
+        type: 3}
+    - target: {fileID: 225204890, guid: 1bdf4eecc70cd3646a433d1609e41b5f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 225204890, guid: 1bdf4eecc70cd3646a433d1609e41b5f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 225204890, guid: 1bdf4eecc70cd3646a433d1609e41b5f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2087703664858672412, guid: 1bdf4eecc70cd3646a433d1609e41b5f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26480,6 +26497,23 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 589049457, guid: 1bdf4eecc70cd3646a433d1609e41b5f, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: bed85cab82b37df49ad291648778bc3f,
+        type: 3}
+    - target: {fileID: 589049457, guid: 1bdf4eecc70cd3646a433d1609e41b5f, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 589049457, guid: 1bdf4eecc70cd3646a433d1609e41b5f, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 589049457, guid: 1bdf4eecc70cd3646a433d1609e41b5f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bdf4eecc70cd3646a433d1609e41b5f, type: 3}
