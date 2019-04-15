@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 474}
   m_MaxSize: {x: 14002, y: 14024}
   vertical: 0
-  controlID: 5601
+  controlID: 9770
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 474}
   m_MaxSize: {x: 10000, y: 14024}
   vertical: 1
-  controlID: 5602
+  controlID: 9771
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 404, y: 224}
   m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
-  controlID: 5603
+  controlID: 9772
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -381,10 +381,10 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 32}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: b4a8ffffb2fbffff
+      scrollPos: {x: 0, y: 63}
+      m_SelectedIDs: f00ffcff
+      m_LastClickedID: -258064
+      m_ExpandedIDs: fe0ffcff0610fcffe21ffcff7423fcff5cc8fcff8623fdff8a23fdff3e2efdff68b1fdff7e14feff5e97feffeaaefeff08f5feff7412ffff0296ffffb2fbffffb40906004a0a0600
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -440,9 +440,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 29, y: -84, z: -1043}
+    m_Target: {x: 197.10794, y: 281.20667, z: 123.72933}
     speed: 2
-    m_Value: {x: 29, y: -84, z: -1043}
+    m_Value: {x: 197.10794, y: 281.20667, z: 123.72933}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -470,13 +470,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.007968178, y: 0.99122846, z: -0.071506165, w: -0.11085848}
+    m_Target: {x: 0.146356, y: -0.0371613, z: -0.005530105, w: -0.9885183}
     speed: 2
-    m_Value: {x: -0.007968178, y: 0.99122846, z: -0.071506165, w: -0.11085848}
+    m_Value: {x: 0.146356, y: -0.0371613, z: -0.005530105, w: -0.9885183}
   m_Size:
-    m_Target: 1112.3341
+    m_Target: 799.93207
     speed: 2
-    m_Value: 1112.3341
+    m_Value: 799.93207
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -552,20 +552,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Art/Models
+    - Assets/Art/Font
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Art/Models
+  - Assets/Art/Font
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Games\DIG3878-PerfectRift\Perfect-Rift
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 863e0000
-    m_LastClickedID: 16006
-    m_ExpandedIDs: 00000000642900004a2b0000922c0000ca2e00003c340000ba360000e8360000423a0000503e0000863e0000e63e0000ec4e0000ee4e0000f04e0000f24e0000f44e000000ca9a3b
+    scrollPos: {x: 0, y: 92}
+    m_SelectedIDs: 9c3e0000
+    m_LastClickedID: 16028
+    m_ExpandedIDs: 0000000064290000562b00009e2c0000d62e000048340000c6360000f43600004e3a0000803e0000b63e0000163f00009e520000a0520000a2520000a4520000a652000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -593,7 +593,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000642900004a2b0000922c0000ca2e00003c340000ba360000e8360000423a0000503e0000863e0000e63e0000ec4e0000ee4e0000f04e0000f24e0000f44e000000ca9a3b
+    m_ExpandedIDs: 0000000064290000562b00009e2c0000d62e000048340000c6360000f43600004e3a0000803e0000b63e0000163f00009e520000a0520000a2520000a4520000a652000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -620,7 +620,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -645,7 +645,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 166}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 154
 --- !u!114 &17
