@@ -36,11 +36,11 @@ public class WallRun3Gravity : MonoBehaviour
                     isWallR = false; //confirm not right wall
                     jumpCount += 1; //log jump
                     Physics.gravity = new Vector3(11, -4f, 0); //(X, Y, Z) gravity controls positive and negative gravity can be applied.
-                    cc.advancedSettings.airControl = false; //turn off air control so player does not angle and float awau from wall
+                    cc.advancedSettings.airControl = false; //turn off air control so player does not angle and float away from wall
 
                     if (Input.GetKeyDown(KeyCode.Space) && !cc.Grounded && jumpCount > 1) //if space bar is hit again
                     {
-                        Physics.gravity = new Vector3(-11, 1f, 0); //change in gravity to give you a push off the wall to the next, could be diabled if gamebreaking or not functionijng as inteded/hindering enjoyment.
+                        Physics.gravity = new Vector3(-11, -9.81f, 0); //change in gravity to give you a push off the wall to the next, could be diabled if gamebreaking or not functionijng as inteded/hindering enjoyment.
                         jumpCount = 0; //since transferring walls, reset jump count
                         isWallL = false; //log that no wall contact is occurring
                         isWallR = false;
@@ -48,7 +48,7 @@ public class WallRun3Gravity : MonoBehaviour
                         {
                             isWallL = false; //log again that walls are not touched
                             isWallR = false;
-                            Physics.gravity = new Vector3(0, -9.18f, 0); //normal gravity restored
+                            Physics.gravity = new Vector3(0, -9.81f, 0); //normal gravity restored
                             cc.advancedSettings.airControl = true; //air control restored to the player
                         }
                         if (Input.GetKeyDown(KeyCode.Space) && !cc.Grounded && jumpCount <= 1) //space bar pressed at the next wall during the transfer
@@ -65,7 +65,7 @@ public class WallRun3Gravity : MonoBehaviour
 
                                     if (Input.GetKeyDown(KeyCode.Space) && !cc.Grounded && jumpCount > 1) //space bar pressed again
                                     {
-                                        Physics.gravity = new Vector3(0, -9.18f, 0); //gravity normal
+                                        Physics.gravity = new Vector3(0, -9.81f, 0); //gravity normal
                                         cc.advancedSettings.airControl = true; //air control restored to player
                                         isWallR = false; //no longer touching either wall
                                         isWallL = false;
@@ -91,7 +91,7 @@ public class WallRun3Gravity : MonoBehaviour
 
                     if (Input.GetKeyDown(KeyCode.Space) && !cc.Grounded && jumpCount > 1) //push off the wall
                     {
-                        Physics.gravity = new Vector3(11, 1f, 0);
+                        Physics.gravity = new Vector3(11, -9.81f, 0);
                         jumpCount = 0;
                         isWallL = false;
                         isWallR = false;
@@ -99,7 +99,7 @@ public class WallRun3Gravity : MonoBehaviour
                         {
                             isWallL = false;
                             isWallR = false;
-                            Physics.gravity = new Vector3(0, -9.18f, 0);
+                            Physics.gravity = new Vector3(0, -9.81f, 0);
                             cc.advancedSettings.airControl = true;
                         }
                         if (Input.GetKeyDown(KeyCode.Space) && !cc.Grounded && jumpCount <= 1) //connecting to the next wall
@@ -116,7 +116,7 @@ public class WallRun3Gravity : MonoBehaviour
 
                                     if (Input.GetKeyDown(KeyCode.Space) && !cc.Grounded && jumpCount > 1) //jump off of wall
                                     {
-                                        Physics.gravity = new Vector3(0, -9.18f, 0); //gravity returns to normal
+                                        Physics.gravity = new Vector3(0, -9.81f, 0); //gravity returns to normal
                                         cc.advancedSettings.airControl = true;
                                         isWallR = false;
                                         isWallL = false;
