@@ -9,7 +9,7 @@ public class Teleport2 : MonoBehaviour
     {
         if (myCollider.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(00);
+            SceneManager.LoadScene(03);
         }
     }
 }

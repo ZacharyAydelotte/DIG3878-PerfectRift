@@ -9,6 +9,7 @@ public class Menu : MonoBehaviour
     public GameObject Rules;
     public GameObject Menus;
     public GameObject Credits;
+    public GameObject LevelSelect;
 
     void Start()
     {
@@ -18,6 +19,16 @@ public class Menu : MonoBehaviour
     public void Level1()
     {
         SceneManager.LoadScene(01);
+    }
+
+    public void Level2()
+    {
+        SceneManager.LoadScene(02);
+    }
+
+    public void Level3()
+    {
+        SceneManager.LoadScene(03);
     }
 
     public void MenuButton()
@@ -52,6 +63,18 @@ public class Menu : MonoBehaviour
     public void Back2()
     {
         Credits.SetActive(false);
+        Menus.SetActive(true);
+    }
+
+    public void LevelSel()
+    {
+        Menus.SetActive(false);
+        LevelSelect.SetActive(true);
+    }
+
+    public void Back3()
+    {
+        LevelSelect.SetActive(false);
         Menus.SetActive(true);
     }
 
