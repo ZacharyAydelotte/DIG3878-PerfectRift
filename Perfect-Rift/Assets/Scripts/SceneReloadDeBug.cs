@@ -31,5 +31,10 @@ public class SceneReloadDeBug : MonoBehaviour
         {
             SceneManager.LoadScene(nextSceneIndex);
         }
+
+        if (Input.GetKey(KeyCode.P) && Input.GetKey(KeyCode.R) && Input.GetKey(KeyCode.E) && Input.GetKeyDown(KeyCode.F))
+        {
+            PlayerPrefs.DeleteAll();
+        }
     }
 }
